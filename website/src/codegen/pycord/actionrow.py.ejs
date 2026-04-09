@@ -1,0 +1,5 @@
+discord.ui.ActionRow(
+<%_ data.comp.components.forEach(function(comp){ _%>
+<%_ %><%- indent(include('/pycord/components.py.ejs', {comp: comp}), 4); -%>,
+<%_ }); _%>
+)<% _%>

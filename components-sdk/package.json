@@ -1,0 +1,60 @@
+{
+  "name": "components-sdk",
+  "version": "0.2.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/node": "^22.14.1",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.24.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.6",
+    "postcss-nesting": "^13.0.1",
+    "rc-slider": "^9.7.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-textarea-autosize": "^8.3.4",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.45.0",
+    "use-file-picker": "^2.1.2",
+    "vite": "^7.1.2",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "peerDependencies": {
+    "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "i18next": "^22.4.10",
+    "rc-slider": "^9.7.5",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-i18next": "^12.1.5",
+    "react-textarea-autosize": "^8.3.4",
+    "use-file-picker": "^2.1.2"
+  },
+  "files": [
+    "dist",
+    "dist/components-sdk.css"
+  ],
+  "main": "./dist/components-sdk.umd.js",
+  "module": "./dist/components-sdk.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/components-sdk.es.js",
+      "require": "./dist/components-sdk.umd.js"
+    },
+    "./components-sdk.css": {
+      "import": "./dist/components-sdk.css",
+      "require": "./dist/components-sdk.css"
+    }
+  }
+}

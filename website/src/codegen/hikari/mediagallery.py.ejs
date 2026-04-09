@@ -1,0 +1,7 @@
+hikari.impl.MediaGalleryComponentBuilder(
+    items=[
+        <%_ data.comp.items.forEach(function(comp){ _%>
+            <%_ %><%- indent(include('/hikari/mediagallery_item.py.ejs', {comp: comp}), 8); %>,
+        <%_ }); _%>
+    ]
+)<% _%>

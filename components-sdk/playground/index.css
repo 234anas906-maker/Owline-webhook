@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #07080e;
+    background-attachment: fixed;
+    color: #b4b7b9;
+    font-family: "gg sans",Whitney,"Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.4rem;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}

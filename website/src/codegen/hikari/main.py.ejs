@@ -1,0 +1,7 @@
+import hikari
+
+components = [
+    <%_ data.components.forEach(function(comp){ _%>
+        <%_ %><%- indent(include('/hikari/components.py.ejs', {comp: comp}), 4); %>,
+    <%_ }); _%>
+]

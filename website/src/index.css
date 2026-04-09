@@ -1,0 +1,182 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #07080e;
+    background-attachment: fixed;
+    color: #b4b7b9;
+    font-family: "gg sans", Whitney, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-SemiboldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-Normal.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('fonts/ggsans-NormalItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.sketch-picker {
+    background-color: #1c1d20 !important;
+}
+.sketch-picker div {
+    box-sizing: content-box !important;
+}
+.sketch-picker input {
+    background-color: transparent !important;
+    color: white !important;
+    box-shadow: 0 0 2px rgb(0, 0, 0) !important;
+    border: 1px solid rgba(248, 248, 248, 0.16) !important;
+    outline: none;
+    border-radius: 5px;
+}
+.sketch-picker input {
+    box-sizing: content-box;
+    text-align: center;
+}
+.sketch-picker label {
+    color: white !important;
+}
+
+.emoji-picker {
+    text-wrap: auto;
+
+    .emoji-mart-dark {
+        border-color: transparent;
+        background-color: #1c1d20;
+    }
+
+    .emoji-mart {
+        font-family: inherit;
+        font-size: 12px;
+    }
+
+    .emoji-mart-dark .emoji-mart-category-label span {
+        background-color: #1c1d20;
+        color: gray;
+    }
+
+    .emoji-mart-title-label {
+        font-size: 14px;
+    }
+
+    .emoji-mart-category .emoji-mart-emoji span {
+        cursor: inherit;
+    }
+
+    .emoji-mart-dark .emoji-mart-search input {
+    /*    border: 1px solid #232629;*/
+    /*    border-radius: 6px;*/
+    /*    outline: none;*/
+    /*    background: #232629;*/
+    /*    color: #b4b7b9;*/
+    /*    width: 100%;*/
+    /*    padding: 6px 15px;*/
+    /*    font-weight: 700;*/
+        font-family: inherit;
+        font-size: 14px;
+    }
+
+    /*.emoji-mart-dark .emoji-mart-bar {*/
+    /*    border-color: transparent;*/
+
+    /*    .emoji-mart-anchors {*/
+    /*        box-shadow: 0px 9px 5px -8px rgba(0, 0, 0, 0.5);*/
+    /*    }*/
+
+    /*    .emoji-mart-preview {*/
+    /*        box-shadow: 0px -16px 13px -14px rgba(0, 0, 0, 0.5);*/
+    /*    }*/
+    /*}*/
+}
+
+
+::backdrop {
+    background: rgba(0, 0, 0, 0.75);
+}

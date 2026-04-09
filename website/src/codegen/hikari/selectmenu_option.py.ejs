@@ -1,0 +1,13 @@
+hikari.impl.SelectOptionBuilder(
+    label=<%=data.comp.label%>,
+    value=<%=data.comp.value%>,
+<% if (data.comp.description) { -%>
+    description=<%=data.comp.description%>,
+<% } -%>
+<% if (data.comp.emoji) { -%>
+    emoji=<%- include('/hikari/emoji.py.ejs', {emoji: data.comp.emoji}) -%>,
+<% } -%>
+<% if (data.comp.default) { -%>
+    is_default=True,
+<% } -%>
+)<% _%>
